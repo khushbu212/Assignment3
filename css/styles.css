@@ -1,27 +1,57 @@
-#navigation-bar{
-    background-color: 	#0434cc;
-padding: 20px 0;
-position: fixed;
-top: 0;
-width: 100%;
-padding-left: 5%;
-left: 0;
+body{
+    text-align: justify;
 }
-li a{     color: lightgray;
+nav ul{
+    padding-top: 9px;
+    
+}
+nav li a{     color: lightgray;
     text-decoration-line: none;
     /* padding-left: 10px; */
     padding-right: 20px;
     /* padding: 0px 10px 13px 10px; */
     font-size: 24px;
-    padding-bottom: 17px;
+    padding-bottom: 19px;
 }
-li a:hover,li a:focus{ border-bottom: orange solid 4px; 
+
+.active{ border-bottom: crimson solid 5px;}
+.nav-item:hover{ 
     color: white;}
-ul,body{
+ul,body{ 
+    /* margin-block-start: 0; */
     margin: 0;
     padding:0;
     
 }
 body{
     padding:70px 5% 50px 5%;
+}
+#navigation-bar{
+    background-color: navy;
+    padding:5px 0 0 0;
+position: fixed;
+top: 0;
+width: 100%;
+padding-left: 5%;
+left: 0;
+}
+/*************************************class selectors***************************/
+.logo{
+   
+    filter: contrast(70%);
+    list-style: none;
+    color: lightgray;
+   height: 40px;
+    width:40px;
+    color: crimson;
+    float: left;
+    padding: 0;
+    display: inline-block;
+    padding-top: 0;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.logo:hover{
+    filter: blur(0);
+    filter: contrast(3);
 }
